@@ -38,10 +38,7 @@
             <a class="button button-primary" href="#stay">Book your stay <span aria-hidden="true">↓</span></a>
           </div>
         </div>
-        <div class="hero-photo photo-placeholder" role="img" aria-label="Photo placeholder for the garden and pond">
-          <span class="photo-label">Photo placeholder</span>
-          <span class="photo-caption">A view across the pond</span>
-        </div>
+        <img class="hero-photo" src="assets/images/honkapirtin-piha.png" alt="Honkapirtin Piha entrance, garden pond and summer cafe" />
       </section>
 
       <section class="intro-band">
@@ -70,9 +67,25 @@
       </section>
 
       <section class="host section-shell">
-        <div class="host-photo photo-placeholder" role="img" aria-label="Photo placeholder for Tiinu in the garden">
-          <span class="photo-label">Photo placeholder</span>
-          <span class="photo-caption">Tiinu in the garden</span>
+        <div class="host-carousel" aria-label="Photos of Tiinu">
+          <div class="host-carousel-viewport">
+            <div class="host-carousel-track">
+              <img class="host-carousel-slide host-carousel-slide--first is-active" src="assets/images/tiinu.jpg" alt="Tiinu at Honkapirtin Piha" />
+              <img class="host-carousel-slide" src="assets/images/tiinu2.jpg" alt="Tiinu at Honkapirtin Piha" />
+              <img class="host-carousel-slide host-carousel-slide--third" src="assets/images/tiinu3.JPG" alt="Tiinu at Honkapirtin Piha" />
+              <img class="host-carousel-slide" src="assets/images/tiinu4.jpg" alt="Tiinu at Honkapirtin Piha" />
+            </div>
+          </div>
+          <div class="host-carousel-controls">
+            <button class="carousel-button" type="button" data-carousel-previous aria-label="Previous photo">←</button>
+            <div class="host-carousel-dots" aria-label="Choose a photo">
+              <button class="carousel-dot is-active" type="button" data-carousel-slide="0" aria-label="Show photo 1" aria-current="true"></button>
+              <button class="carousel-dot" type="button" data-carousel-slide="1" aria-label="Show photo 2"></button>
+              <button class="carousel-dot" type="button" data-carousel-slide="2" aria-label="Show photo 3"></button>
+              <button class="carousel-dot" type="button" data-carousel-slide="3" aria-label="Show photo 4"></button>
+            </div>
+            <button class="carousel-button" type="button" data-carousel-next aria-label="Next photo">→</button>
+          </div>
         </div>
         <div class="host-copy">
           <p class="section-kicker">02 / The host</p>
@@ -85,8 +98,28 @@
       </section>
 
       <section class="garden section-shell" id="garden">
-        <div class="garden-image photo-placeholder" role="img" aria-label="Photo placeholder for summer cafe and garden">
-          <span class="photo-label">Photo placeholder</span><span class="photo-caption">Summer cafe in the garden</span>
+        <div class="garden-carousel" aria-label="Photos of the summer cafe and garden">
+          <div class="garden-carousel-viewport">
+            <div class="garden-carousel-track">
+              <img class="garden-carousel-slide" src="assets/images/honkapirtin-piha-kyltti.jpg" alt="Honkapirtin Piha sign" />
+              <img class="garden-carousel-slide" src="assets/images/aitta-lippu.jpg" alt="Aitta and flag at Honkapirtin Piha" />
+              <img class="garden-carousel-slide" src="assets/images/puutarha-kurkku.jpg" alt="Cucumbers growing in the garden" />
+              <img class="garden-carousel-slide" src="assets/images/puutarha-ruohosipuli.jpg" alt="Chives growing in the garden" />
+              <img class="garden-carousel-slide" src="assets/images/kesakahvila.jpg" alt="Summer cafe at Honkapirtin Piha" />
+              <img class="garden-carousel-slide" src="assets/images/puutarha-vadelma.jpg" alt="Raspberries in the garden" />
+              <img class="garden-carousel-slide" src="assets/images/retki-kahvit.jpg" alt="Coffee break outdoors" />
+              <img class="garden-carousel-slide" src="assets/images/tatti.jpg" alt="Mushroom from the surrounding forest" />
+              <img class="garden-carousel-slide" src="assets/images/puutarha-tomaatti.jpg" alt="Tomatoes growing in the garden" />
+              <img class="garden-carousel-slide" src="assets/images/puutarha-kukka.jpg" alt="Flower in the garden" />
+              <img class="garden-carousel-slide" src="assets/images/auringonlasku.jpg" alt="Sunset at Honkapirtin Piha" />
+              <img class="garden-carousel-slide" src="assets/images/puutarha-kesakurpitsa.jpg" alt="Summer squash growing in the garden" />
+            </div>
+          </div>
+          <div class="garden-carousel-controls">
+            <button class="carousel-button" type="button" data-garden-previous aria-label="Previous garden photo">←</button>
+            <p class="garden-carousel-status" aria-live="polite"><span data-garden-current>1</span> / 12</p>
+            <button class="carousel-button" type="button" data-garden-next aria-label="Next garden photo">→</button>
+          </div>
         </div>
         <div class="garden-copy">
           <p class="section-kicker">03 / Around the pond</p>
@@ -110,7 +143,14 @@
         </div>
         <div class="stay-grid">
           <article class="stay-card featured-stay">
-            <div class="card-photo photo-placeholder"><span class="photo-label">Photo placeholder</span><span class="photo-caption">The summer cabin</span></div>
+            <div class="cabin-gallery" aria-label="Photos of the summer cabin and its surroundings">
+              <button class="cabin-gallery-thumb" type="button" data-cabin-image="0" aria-label="View breakfast photo"><img src="assets/images/aamupala.jpg" alt="" /></button>
+              <button class="cabin-gallery-thumb" type="button" data-cabin-image="1" aria-label="View double room photo"><img src="assets/images/parisanky-pirtti.jpg" alt="" /></button>
+              <button class="cabin-gallery-thumb" type="button" data-cabin-image="2" aria-label="View aitta photo"><img src="assets/images/aitta.jpg" alt="" /></button>
+              <button class="cabin-gallery-thumb" type="button" data-cabin-image="3" aria-label="View small room photo"><img src="assets/images/pikku-pirtti.jpg" alt="" /></button>
+              <button class="cabin-gallery-thumb" type="button" data-cabin-image="4" aria-label="View outdoor kitchen photo"><img src="assets/images/ulkokeittio.jpg" alt="" /></button>
+              <button class="cabin-gallery-thumb" type="button" data-cabin-image="5" aria-label="View sauna photo"><img src="assets/images/sauna.jpg" alt="" /></button>
+            </div>
             <div class="card-content">
               <div class="card-topline"><span>01</span><span>Two rooms</span></div>
               <h3>A simple summer cabin</h3>
@@ -123,11 +163,11 @@
           </article>
           <div class="stay-stack">
             <article class="stay-card compact-stay">
-              <div class="compact-photo photo-placeholder"><span class="photo-label">Photo placeholder</span></div>
+              <button class="compact-photo-button" type="button" data-compact-lightbox aria-label="View larger hammock photo"><img class="compact-photo" src="assets/images/riippumatto.jpg" alt="Hammock at Honkapirtin Piha" /></button>
               <div class="card-content"><div class="card-topline"><span>02</span><span>Under the stars</span></div><h3>Hammock nights</h3><p>For a lighter footprint and a closer feel for the garden.</p><a class="text-link" href="https://www.airbnb.com/rooms/910724333390165311?source_impression_id=p3_1789995441_P3qXijeKNZY1QKMh" target="_blank" rel="noreferrer">Book the hammock <span aria-hidden="true">↗</span></a></div>
             </article>
             <article class="stay-card compact-stay">
-              <div class="compact-photo photo-placeholder"><span class="photo-label">Photo placeholder</span></div>
+              <button class="compact-photo-button" type="button" data-compact-lightbox aria-label="View larger lean-to shelter photo"><img class="compact-photo" src="assets/images/laavu.jpg" alt="Lean-to shelter at Honkapirtin Piha" /></button>
               <div class="card-content"><div class="card-topline"><span>03</span><span>Laavu</span></div><h3>Lean-to shelter</h3><p>A sheltered spot for guests who want the outdoors to be part of the room.</p><a class="text-link" href="https://www.airbnb.com/rooms/26663045?source_impression_id=p3_1789995441_P35okChkA4oZdCJt" target="_blank" rel="noreferrer">Book the lean-to <span aria-hidden="true">↗</span></a></div>
             </article>
           </div>
@@ -178,6 +218,23 @@
         </div>
       </section>
     </main>
+
+    <dialog class="cabin-lightbox" aria-labelledby="cabin-lightbox-caption">
+      <div class="cabin-lightbox-bar">
+        <p id="cabin-lightbox-caption"></p>
+        <button class="cabin-lightbox-close" type="button" aria-label="Close photo gallery">×</button>
+      </div>
+      <div class="cabin-lightbox-content">
+        <button class="cabin-lightbox-button" type="button" data-cabin-previous aria-label="Previous photo">←</button>
+        <img class="cabin-lightbox-image" src="" alt="" />
+        <button class="cabin-lightbox-button" type="button" data-cabin-next aria-label="Next photo">→</button>
+      </div>
+    </dialog>
+
+    <dialog class="compact-lightbox">
+      <button class="compact-lightbox-close" type="button" aria-label="Close larger photo">×</button>
+      <img class="compact-lightbox-image" src="" alt="" />
+    </dialog>
 
     <footer class="site-footer"><a class="brand" href="#top"><span class="brand-mark">HP</span><span>Honkapirtin Piha</span></a><p>A small place in Koski Tl, Finland.</p><p>© <span id="year"></span> Honkapirtin Piha</p></footer>
     <script src="script.js"></script>
