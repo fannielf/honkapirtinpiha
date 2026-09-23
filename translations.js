@@ -75,7 +75,7 @@ const pageTranslations = {
       '.contact-details > a:nth-child(2) span': 'Sähköposti',
       '.social-row > span': 'Seuraa meitä',
       '.site-footer p:first-of-type': 'Pieni paikka Koskella Tl, Suomessa.',
-      '.site-footer p:last-of-type': '© {year} Honkapirtin Piha'
+      '.site-footer p:last-of-type': '© <span id="year"></span> Honkapirtin Piha'
     }
   },
   en: {
@@ -155,7 +155,7 @@ const pageTranslations = {
       '.contact-details > a:nth-child(2) span': 'Email',
       '.social-row > span': 'Follow along',
       '.site-footer p:first-of-type': 'A small place in Koski Tl, Finland.',
-      '.site-footer p:last-of-type': '© {year} Honkapirtin Piha'
+      '.site-footer p:last-of-type': '© <span id="year"></span> Honkapirtin Piha'
     }
   },
   sv: {
@@ -235,7 +235,7 @@ const pageTranslations = {
       '.contact-details > a:nth-child(2) span': 'E-post',
       '.social-row > span': 'Följ oss',
       '.site-footer p:first-of-type': 'En liten plats i Koski Tl, Finland.',
-      '.site-footer p:last-of-type': '© {year} Honkapirtin Piha'
+      '.site-footer p:last-of-type': '© <span id="year"></span> Honkapirtin Piha'
     }
   },
   de: {
@@ -315,7 +315,7 @@ const pageTranslations = {
       '.contact-details > a:nth-child(2) span': 'E-Mail',
       '.social-row > span': 'Folgen Sie uns',
       '.site-footer p:first-of-type': 'Ein kleiner Ort in Koski Tl, Finnland.',
-      '.site-footer p:last-of-type': '© {year} Honkapirtin Piha'
+      '.site-footer p:last-of-type': '© <span id="year"></span> Honkapirtin Piha'
     }
   }
 };
@@ -334,6 +334,9 @@ const applyPageLanguage = (language) => {
       element.innerHTML = value.replace('{year}', new Date().getFullYear());
     });
   });
+
+  const year = document.querySelector('#year');
+  if (year) year.textContent = new Date().getFullYear();
 
   const languageSelect = document.querySelector('#language-select');
   if (languageSelect) languageSelect.value = selected;
