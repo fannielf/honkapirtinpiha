@@ -25,7 +25,19 @@
         <a href="#garden">The Garden</a>
         <a href="#visit">How to find us</a>
       </nav>
-      <a class="nav-cta" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+      <div class="header-actions">
+        <label class="language-picker" for="language-select">
+          <span class="language-icon" aria-hidden="true">🌐</span>
+          <span class="visually-hidden">Language</span>
+          <select id="language-select" aria-label="Choose language">
+            <option value="fi">Suomi</option>
+            <option value="en">English</option>
+            <option value="sv">Svenska</option>
+            <option value="de">Deutsch</option>
+          </select>
+        </label>
+        <a class="nav-cta" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+      </div>
     </header>
 
     <main id="top">
@@ -244,6 +256,7 @@
     </dialog>
 
     <footer class="site-footer"><a class="brand" href="#top"><span class="brand-mark">HP</span><span>Honkapirtin Piha</span></a><p>A small place in Koski Tl, Finland.</p><p>© <span id="year"></span> Honkapirtin Piha</p></footer>
+    <script src="translations.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
