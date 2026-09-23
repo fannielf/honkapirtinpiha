@@ -93,8 +93,12 @@ h1 em { color: var(--moss); font-style: italic; }
 .garden-copy { order: 1; }
 .garden-copy > p:not(.section-kicker) { margin: 28px 0 42px; max-width: 430px; }
 .feature-list { border-top: 1px solid var(--line); list-style: none; margin: 0; padding: 0; }
-.feature-list li { border-bottom: 1px solid var(--line); font-size: 14px; padding: 17px 0; }
-.feature-list span { color: var(--moss); display: inline-block; font-size: 10px; margin-right: 20px; }
+.feature-list li { align-items: baseline; border-bottom: 1px solid var(--line); display: flex; font-size: 14px; gap: 20px; padding: 17px 0; }
+.feature-list span { color: var(--moss); flex: 0 0 20px; font-size: 10px; }
+.garden-reservation { margin-top: 36px; padding-top: 28px; }
+.garden-reservation .section-kicker { margin-bottom: 12px; }
+.garden-reservation h3 { font-size: 26px; margin-bottom: 10px; }
+.garden-reservation p:not(.section-kicker) { font-size: 14px; margin: 0 0 18px; max-width: 500px; }
 .visit-band { background: var(--forest); color: var(--paper); padding: 90px 0; }
 .visit-grid { align-items: end; display: flex; justify-content: space-between; }
 .visit-grid .section-kicker { color: var(--peach); }
