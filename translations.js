@@ -245,11 +245,11 @@ const pageTranslations = {
       '.nav-cta': 'Kontakt aufnehmen <span aria-hidden="true">↗</span>',
       '.hero .eyebrow': '<span></span> Koski Tl, Südwestfinnland',
       '.hero h1': 'Ein kleiner Garten<br /><em>mit Raum zum Aufatmen.</em>',
-      '.hero-intro': 'Eine gemütliche Sommerunterkunft, ein Café und ein Garten an einem Teich in der finnischen Landschaft. Kommen Sie für eine Nacht und bleiben Sie in der Ruhe.',
+      '.hero-intro': 'Eine gemütliche Sommerunterkunft, ein Café und ein Garten an einem Teich in der finnischen Landschaft. Verbringen Sie eine Nacht und finden Sie Ruhe.',
       '.hero-actions .button': 'Aufenthalt buchen <span aria-hidden="true">↓</span>',
       '.intro-copy .section-kicker': '01 / Willkommen',
-      '.intro-copy h2': 'Willkommen in Honkapirtin Piha<br />Ein Zuhause in der Ruhe des Landes.',
-      '.intro-copy > p:not(.section-kicker)': 'Honkapirtin Piha ist für uns viel mehr als nur ein Wohnort. Es ist ein Zuhause, umgeben von einem Hof und Garten, die wir über die Jahre mit viel Liebe gestaltet haben, ein Ort, an dem Natur, Landleben und ein ruhiges Tempo zum Alltag gehören.',
+      '.intro-copy h2': 'Willkommen in Honkapirtin Piha<br />Ihr Zuhause am Land.',
+      '.intro-copy > p:not(.section-kicker)': 'Honkapirtin Piha ist für uns viel mehr als nur ein Wohnort. Es ist unser Zuhause, umgeben von einem Hof und Garten, die wir über die Jahre mit viel Liebe gestaltet haben. Es ist ein Ort, an dem die Natur, das Landleben und ein ruhigeres Tempo zum Alltag gehören.',
       '.welcome-details summary': 'Mehr lesen',
       '.welcome-body p': [
         'Alles begann mit einem Sommerhaus. Honkapirtin Piha war ursprünglich der Ferienort unserer Familie, wo unsere Kinder inmitten der Natur aufwachsen konnten. Als die Kinder älter wurden, beschlossen wir, dauerhaft hierherzuziehen. Da das ursprüngliche Häuschen nur eine kleine Saunahütte war, bauten wir ein neues Blockhaus auf dem Hof. Seit 2018 ist Honkapirtin Piha unser Zuhause.',
@@ -266,38 +266,38 @@ const pageTranslations = {
       '.host-copy .section-kicker': '02 / Die Gastgeberin',
       '.host-copy h2': 'Ich bin Tiinu, Ihre Gastgeberin in Honkapirtin Piha.',
       '.host-copy p:not(.section-kicker)': [
-        'Ich komme ursprünglich aus Karelien, aber Südwestfinnland ist meine Heimat geworden. Ich liebe die Natur, Begegnungen mit Menschen und neue Erfahrungen.',
+        'Ursprünglich aus Karelien, ist Südwestfinnland über die Jahre zu meiner Heimat geworden. Ich liebe die Natur hier, die viele Begegnungen mit Menschen und die neue Erfahrungen, die ich dadurch gemacht habe.',
         'Ich bin von Natur aus eine begeisterte Entdeckerin. Aktiv zu sein, durch den Wald zu wandern, Pilze zu sammeln und Fahrrad zu fahren gehört seit jeher zu mir. In Honkapirtin Piha habe ich auch die Gartenarbeit lieben gelernt.',
-        'Ich wünsche mir, dass sich alle, die unseren Hof betreten, herzlich willkommen und frei fühlen, sie selbst zu sein. Sie können sich unterhalten, einen Moment mit anderen teilen oder ganz für sich sein.',
-        'Sie können innehalten, die Natur genießen, eine Tasse Kaffee trinken, Pfannkuchen backen oder einfach sein. Für mich ist genau das die wahre Magie von Honkapirtin Piha.'
+        'Ich wünsche mir, dass sich alle, die unseren Hof besuchen herzlich willkommen und frei fühlen, sie selbst zu sein. Sie können sich unterhalten, einen Moment mit anderen teilen oder ganz für sich sein.',
+        'Sie können innehalten, die Natur genießen, eine Tasse Kaffee trinken, Pfannkuchen backen oder einfach sein und genießen. Für mich ist genau das die Magie von Honkapirtin Piha.'
       ],
       '.garden-copy .section-kicker': '03 / Rund um den Teich',
       '.garden-copy h2': 'Ein Garten, der etwas zurückgibt.',
-      '.garden-copy > p:not(.section-kicker)': 'Im Garten wachsen Nutzpflanzen, Zierblumen und wilde Natur nebeneinander. Im Sommer serviert das Café Kaffee und Gebäck, und die Ernte der Saison findet ihren Weg auf den Teller.',
-      '.feature-list li': ['<span>01</span> Sommercafé und saisonale Köstlichkeiten', '<span>02</span> Sauna auf dem Hof', '<span>03</span> Hunde willkommen und barrierefreie Ankunft'],
+      '.garden-copy > p:not(.section-kicker)': 'Im unserem Garten wachsen verschiedene Nutzpflanzen, bunte Zierblumen und wilde Natur nebeneinander. Im Sommer serviert das kleine Café warme Getränke, Kaffee und Gebäck. Auch die Ernte der Saison findet ihren Weg auf den Teller.',
+      '.feature-list li': ['<span>01</span> Sommercafé und saisonale Köstlichkeiten', '<span>02</span> Sauna und kleiner Teich auf dem Hof', '<span>03</span> Hunde sind willkommen und wir haben barrierefreie Zugang'],
       '.garden-reservation .section-kicker': 'Für Gruppen',
       '.garden-reservation h3': 'Gartenführung und Kaffee reservieren.',
-      '.garden-reservation p:not(.section-kicker)': 'Bringen Sie Ihre Gruppe mit, erkunden Sie den Garten, hören Sie seine Geschichte und genießen Sie Kaffee mit etwas Süßem. Fragen Sie uns nach einem passenden Termin.',
+      '.garden-reservation p:not(.section-kicker)': 'Auch Gruppen können unseren Hof besuchen, den Garten erkunden, um seinen Geschichten zu lauschen und einen Kaffee mit etwas Süßem zu genießen. Fragen Sie uns gern nach einem passenden Termin.',
       '.garden-reservation .text-link': 'Nach Gruppenbesuchen fragen <span aria-hidden="true">↗</span>',
       '.section-heading .section-kicker': '04 / Übernachten',
-      '.section-heading h2': 'Wählen Sie Ihre Art zu übernachten.',
+      '.section-heading h2': 'Wählen Sie die Art der Unterkunft.',
       '.section-heading > div > p:not(.section-kicker)': 'Übernachten Sie in einer einfachen Sommerhütte, schlafen Sie in einer Schutzhütte oder wachen Sie in einer Hängematte auf. Jede Möglichkeit bringt Sie nahe an Garten, Teich und die ruhige Landschaft.',
       '.featured-stay .card-topline span': ['01', 'Zwei Zimmer'],
       '.featured-stay h3': 'Eine einfache Sommerhütte',
-      '.featured-stay .card-content > p': 'Die Hütte hat zwei getrennte Zimmer: ein größeres Zimmer für ein Paar und ein kleineres Zimmer für eine Person. Wählen Sie das Zimmer, das zu Ihrem Aufenthalt passt.',
+      '.featured-stay .card-content > p': 'Die Hütte hat zwei getrennte Zimmer: ein größeres Zimmer für ein Paar und ein kleineres Zimmer für eine Person. Wählen Sie das Zimmer, das am besten zu Ihren Wünschen passt.',
       '.featured-stay .cabin-links .text-link': ['Größeres Zimmer buchen <span aria-hidden="true">↗</span>', 'Kleineres Zimmer buchen <span aria-hidden="true">↗</span>'],
       '.compact-stay .card-topline span': ['02', 'Unter den Sternen', '03', 'Schutzhütte'],
-      '.compact-stay h3': ['Nächte in der Hängematte', 'Nächte in der Schutzhütte'],
-      '.compact-stay .card-content p': ['Für einen leichten Aufenthalt mit engem Kontakt zum Garten.', 'Ein geschützter Ort für Gäste, die die Natur zum Teil ihres Zimmers machen möchten.'],
+      '.compact-stay h3': ['Träume in der Hängematte', 'Nächte in der Schutzhütte'],
+      '.compact-stay .card-content p': ['Für einen leichten Aufenthalt mit engem Kontakt zur Natur.', 'Ein geschützter Ort für Gäste, die die Natur zum Teil ihres Zimmers machen möchten.'],
       '.compact-stay .text-link': ['Hängematte buchen <span aria-hidden="true">↗</span>', 'Schutzhütte buchen <span aria-hidden="true">↗</span>'],
       '.nearby-stay .section-kicker': 'Eine separate Möglichkeit in der Nähe',
       '.nearby-stay h3': 'Haus im Zentrum von Koski Tl',
-      '.nearby-stay p:not(.section-kicker)': 'Im Zentrum von Koski Tl gibt es auch ein Haus zur Miete. Es liegt nicht bei Honkapirtin Piha, eignet sich aber für Gäste, die eine private Unterkunft im Ort suchen.',
+      '.nearby-stay p:not(.section-kicker)': 'Im Zentrum von Koski Tl gibt es auch ein Haus zur Miete. Es liegt nicht bei Honkapirtin Piha, eignet sich aber für Gäste, die eine größer und private Unterkunft im Ort vorziehen.',
       '.nearby-stay .text-link': 'Haus in der Nähe ansehen <span aria-hidden="true">↗</span>',
       '.reviews-summary .section-kicker': '05 / Gästestimmen',
       '.reviews-summary h2': 'Fünf Sterne für die kleinen Dinge.',
       '.rating-line > span:last-child': 'Über 80 Airbnb-Bewertungen',
-      '.reviews-summary > p:not(.section-kicker)': 'Gäste loben dieselben Dinge: die ruhige Umgebung, das großzügige Frühstück, die warme Sauna und den Teich zum Abkühlen.',
+      '.reviews-summary > p:not(.section-kicker)': 'Alle unsere Gäste loben dieselben Dinge: die ruhige Umgebung, das großzügige Frühstück, die warme Sauna und den Teich zum Abkühlen.',
       '.review-button': 'Alle Airbnb-Bewertungen lesen <span aria-hidden="true">↗</span>',
       '.review-feature strong': ['Sauna', 'Frühstück', 'Teich', 'Ruhe'],
       '.review-feature p': ['Warmer, sanfter Dampf nach einem Tag draußen.', 'Hausgemacht, reichhaltig und voller saisonaler Zutaten.', 'Eine erfrischende Abkühlung mitten in der Natur.', 'Ruhige Landschaft und erholsamer Schlaf.'],
@@ -305,12 +305,12 @@ const pageTranslations = {
       '.review-quote footer strong': ['Jarkko', 'Muusa', 'Veijo', 'Heli'],
       '.review-quote footer span': ['August 2026 · eine Nacht', 'Juli 2026 · eine Nacht', 'Juli 2025 · eine Nacht', 'April 2025 · eine Nacht'],
       '.visit-grid .section-kicker': '06 / So finden Sie uns',
-      '.visit-grid h2': 'Kommen Sie aufs Land.',
+      '.visit-grid h2': 'Kommen Sie zu uns aufs Land.',
       '.visit-grid p:not(.section-kicker)': 'Honkapirtin Piha liegt in der Kranintie 211 in Koski Tl in der Region Varsinais-Suomi, Finnland.',
       '.map-link span': 'In Google Maps öffnen',
       '.contact-copy .section-kicker': '07 / Hallo sagen',
-      '.contact-copy h2': 'Wir freuen uns, von Ihnen zu hören.',
-      '.contact-copy p:not(.section-kicker)': 'Für Verfügbarkeit, Buchungen, Fragen zur Sauna oder Hilfe bei der Planung Ihres Aufenthalts kontaktieren Sie die Gastgeber direkt. In den sozialen Medien finden Sie außerdem Veranstaltungen und Neuigkeiten der Saison.',
+      '.contact-copy h2': 'Wir freuen uns auf Sie.',
+      '.contact-copy p:not(.section-kicker)': 'Für Verfügbarkeit, Buchungen, Fragen zur Sauna oder Hilfe bei der Planung Ihres Aufenthalts kontaktieren Sie die Gastgeber direkt. In den sozialen Medien finden Sie außerdem Informationen zu lokalen Veranstaltungen und Neuigkeiten.',
       '.contact-details > a:first-child span': 'Telefon',
       '.contact-details > a:nth-child(2) span': 'E-Mail',
       '.social-row > span': 'Folgen Sie uns',
@@ -345,9 +345,30 @@ const applyPageLanguage = (language) => {
 
 const languageSelect = document.querySelector('#language-select');
 const savedLanguage = localStorage.getItem('honkapirtin-language') || 'fi';
+const getLanguageFromUrl = () => {
+  const language = new URLSearchParams(window.location.search).get('lang');
+  return pageTranslations[language] ? language : null;
+};
 
 if (languageSelect) {
-  languageSelect.addEventListener('change', (event) => applyPageLanguage(event.target.value));
+  languageSelect.addEventListener('change', (event) => {
+    const language = event.target.value;
+    const url = new URL(window.location.href);
+    url.searchParams.set('lang', language);
+    window.history.pushState(null, '', url);
+    applyPageLanguage(language);
+  });
 }
 
-applyPageLanguage(savedLanguage);
+const initialLanguage = getLanguageFromUrl() || savedLanguage;
+applyPageLanguage(initialLanguage);
+
+if (!getLanguageFromUrl() && initialLanguage !== 'fi') {
+  const url = new URL(window.location.href);
+  url.searchParams.set('lang', initialLanguage);
+  window.history.replaceState(null, '', url);
+}
+
+window.addEventListener('popstate', () => {
+  applyPageLanguage(getLanguageFromUrl() || 'fi');
+});
